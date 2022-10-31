@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div>
+            1-Somar os números<br>
+            2-Subtrair os números<br>
+            3-Dividir o primeiro número pelo segundo<br>
+            4-Multiplicar os números<br>
+            5-Elevar o primeiro número pelo segundo
+        </div>
+        <div>
+             <p>Primeiro número: <input type="number" id="txtn1"><br>
+             Segundo número: <input type="number" id="txtn2"><br>
+             Número da operação: <input type="number" id="txtnop"><br>
+             <input type="button" value="Calcular" onclick="calcular()"></p>
+        </div>
+        <div id="res">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; TiagoSites</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
